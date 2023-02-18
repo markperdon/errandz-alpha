@@ -20,43 +20,19 @@ class HomeView extends GetView<HomeController> {
               children: [
                 const SizedBox(width: 8),
                 Expanded(
-                    child: makeCard(Icons.text_fields_sharp, "Text completion",
+                    child: makeCard(Icons.text_fields_sharp, "Err4nds Help",
                         Colors.green.withOpacity(0.5), () {
                   Get.toNamed(Routes.CHAT_TEXT);
                 })),
                 Expanded(
-                    child: makeCard(Icons.image, "Image generation",
+                    child: makeCard(Icons.image, "Image Search",
                         Colors.orange.withOpacity(0.5), () {
                   Get.toNamed(Routes.CHAT_IMAGE);
                 })),
                 const SizedBox(width: 8),
               ],
             ),
-            const SizedBox(height: 12),
-            Row(
-              children: [
-                const SizedBox(width: 8),
-                Expanded(
-                    child: makeCard(Icons.code, "Code completion",
-                        Colors.deepPurple.withOpacity(0.5), () {
-                  Get.snackbar(
-                    "Coming soon!",
-                    "",
-                    borderRadius: 10,
-                  );
-                })),
-                Expanded(
-                    child: makeCard(Icons.auto_graph, "Embeddings",
-                        Colors.blue.withOpacity(0.5), () {
-                  Get.snackbar(
-                    "Coming soon!",
-                    "",
-                    borderRadius: 10,
-                  );
-                })),
-                const SizedBox(width: 8),
-              ],
-            )
+            const SizedBox(height: 12)
           ],
         ),
       ),
