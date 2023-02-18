@@ -1,6 +1,6 @@
 # Errandz AI app
 
-(C) 2022 The original author  [@markperdon](https://github.com/markperdon/)
+(C) 2023 with Chat GPT
 
 ## Development Setup
 Clone the repository and run the following commands:
