@@ -33,7 +33,7 @@ class TextCard extends StatelessWidget {
                 Expanded(
                   child: Text(
                     textData.text,
-                    style: const TextStyle(fontSize: 18),
+                    style: const TextStyle(fontSize: 10),
                   ),
                 ),
               ],
@@ -90,7 +90,7 @@ class MyTextCard extends StatelessWidget {
           Expanded(
             child: Text(
               textData.text,
-              style: const TextStyle(fontSize: 18),
+              style: const TextStyle(fontSize: 10),
             ),
           ),
         ],

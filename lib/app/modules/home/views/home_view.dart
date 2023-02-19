@@ -11,7 +11,22 @@ class HomeView extends GetView<HomeController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
+      appBar:AppBar(
+        backgroundColor: Colors.white,
+        brightness: Brightness.light,
+        elevation: 0,
+        leading: IconButton(
+          icon: Icon(Icons.menu, color: Colors.black87,),
+          onPressed: (){},
+        ),
+      ),
+      body: Container(
+        decoration: const BoxDecoration(
+          image: DecorationImage(
+              image: AssetImage("images/gundamblueprint.jpg"),
+              fit: BoxFit.cover
+          ),
+        ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -20,13 +35,13 @@ class HomeView extends GetView<HomeController> {
               children: [
                 const SizedBox(width: 8),
                 Expanded(
-                    child: makeCard(Icons.text_fields_sharp, "Err4nds Help",
-                        Colors.green.withOpacity(0.5), () {
+                    child: makeCard(Icons.ac_unit, "Err4nds Help",
+                        Colors.blueGrey.withOpacity(0.5), () {
                   Get.toNamed(Routes.CHAT_TEXT);
                 })),
                 Expanded(
                     child: makeCard(Icons.image, "Image Search",
-                        Colors.orange.withOpacity(0.5), () {
+                        Colors.green.withOpacity(0.5), () {
                   Get.toNamed(Routes.CHAT_IMAGE);
                 })),
                 const SizedBox(width: 8),
