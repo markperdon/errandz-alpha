@@ -7,12 +7,14 @@ import '../controllers/home_controller.dart';
 
 class HomeView extends GetView<HomeController> {
   const HomeView({Key? key}) : super(key: key);
+  // const List<String> errands = <String> ['medicine', 'documents', 'food', 'grocery'];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar:AppBar(
-        backgroundColor: Colors.white,
+        title: Text("Komission"),
+        backgroundColor: Colors.grey,
         brightness: Brightness.light,
         elevation: 0,
         leading: IconButton(
@@ -21,12 +23,6 @@ class HomeView extends GetView<HomeController> {
         ),
       ),
       body: Container(
-        decoration: const BoxDecoration(
-          image: DecorationImage(
-              image: AssetImage("images/gundamblueprint.jpg"),
-              fit: BoxFit.cover
-          ),
-        ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -84,4 +80,5 @@ class HomeView extends GetView<HomeController> {
       ),
     );
   }
+
 }

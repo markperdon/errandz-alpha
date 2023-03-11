@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "773590412015",
+    "project_id": "komission-379707",
+    "storage_bucket": "komission-379707.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773590412015:android:f31e241e47e69e66fe091a",
+        "android_client_info": {
+          "package_name": "com.errands.komission"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773590412015-0246i4o85a436kuec2d3u6fskd3jff7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWv00KeoP3bPwuyaRZyfzmh_Jc6lCUwok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773590412015-0246i4o85a436kuec2d3u6fskd3jff7t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
